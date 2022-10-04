@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    margin: 10%;
+}
+header{
+    background-image: url("../imagens/topo.jpg");
+    height: 980px;
+    background-position: right center;
+    background-size: cover;
+}
+
+#topbar img{
+    float: left;
+}
+#topbar nav{
+    background-color: #001018;
+    padding: 15px;
+}
+#topbar nav ul{
+    text-align: right;
+}
+
+#topbar nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+#topbar nav ul li a{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #006a94;
+}
+
+#portifolio{
+    margin: 8%;
+}
+#portifolio h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#portifolio p{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #686666;
+}
+
+#galery{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    align-items: center;
+}
+.card h1{
+    font-family: sans-serif;
+}
+.card p{
+    font-family: sans-serif;
+    color: #686666;
+}
+
+.cartao{
+    background-image: url("../imagens/bg_detalhe.png");
+    background-position: right bottom;
+    background-size: cover;
+    height: 980px;
+}
+
+footer{
+    background-color: #001018;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+footer p{
+    color: #006a94;
+}

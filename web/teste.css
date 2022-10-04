@@ -1,0 +1,15 @@
+a:link{
+    color: rebeccapurple;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: chartreuse;
+}
+ol li{
+    list-style-type: circle;
+}
+ul li{
+    list-style-type: circle;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: blue;
+    text-align:center;
+    font-size: 46px;
+    
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 36px;
+    padding: 10px;
+}
+h1, h2{
+    background-color: lightgreen;
+    border-bottom-style: solid;
+    border-bottom-color: green;
+}
+h3, p, ul{
+    color: white;
+    font-weight: bold;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    list-style-position: inside;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

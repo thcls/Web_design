@@ -1,0 +1,23 @@
+body{
+    width: 700px;
+    margin: auto;
+    background-image: url("images/dark-minimal-scenery-4k-xj.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image_one{
+    float: left;
+    margin: 10px;       
+}
+.image_two{
+    margin-left: -140px;
+    float: left;
+
+}
+p{
+    color: white;
+    text-align: center;
+    line-height: 1.4;
+}

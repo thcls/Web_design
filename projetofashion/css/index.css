@@ -1,11 +1,12 @@
 body{
-    margin: 0;
-    margin: 10%;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
 }
 header{
     background-image: url("../imagens/topo.jpg");
-    height: 980px;
-    background-position: right center;
+    height: 800px;
+    background-position: left center;
     background-size: cover;
 }
 
@@ -35,15 +36,18 @@ header{
     margin: 8%;
 }
 #portifolio h1{
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     font-family: sans-serif;
 }
 #portifolio p{
-    font-size: 25px;
+    font-size: 22px;
+    width: 80%;
+    margin: auto;
     text-align: center;
     font-family: sans-serif;
     color: #686666;
+    line-height: 2;
 }
 
 #galery{
@@ -52,9 +56,11 @@ header{
 .card{
     display: inline-block;
     align-items: center;
+    margin: 10px;
 }
-.card h1{
+.card h2{
     font-family: sans-serif;
+    letter-spacing: 3px;
 }
 .card p{
     font-family: sans-serif;
@@ -64,10 +70,29 @@ header{
 .cartao{
     background-image: url("../imagens/bg_detalhe.png");
     background-position: right bottom;
-    background-size: cover;
-    height: 980px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #013b53;
+    height: 800px;
 }
-
+.cartao{
+    color: white;
+}
+.cartao h2{
+    text-transform: uppercase;
+}
+.cardcontent{
+    padding: 30px;
+}
+#about h3{
+    text-align: center;
+    color: #013b53;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.mapouter{
+    height: 800px;
+}
 footer{
     background-color: #001018;
     text-align: center;

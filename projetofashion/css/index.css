@@ -1,9 +1,9 @@
 body{
-    width: 85%;
+    width: 80%;
     margin: auto;
     font-family: sans-serif;
 }
-header{
+#topbar header{
     background-image: url("../imagens/topo.jpg");
     height: 800px;
     background-position: left center;
@@ -78,11 +78,19 @@ header{
 .cartao{
     color: white;
 }
-.cartao h2{
+.cartao header p{
     text-transform: uppercase;
+    font-size: 70px;
+    margin: 0;
+}
+.cardtext{
+    font-size: 27px;
+    margin-top: 70px;
+    display: block;
+    width: 70%;
 }
 .cardcontent{
-    padding: 30px;
+    padding: 120px;
 }
 #about h3{
     text-align: center;
@@ -92,6 +100,7 @@ header{
 }
 .mapouter{
     height: 800px;
+    text-align: center;
 }
 footer{
     background-color: #001018;

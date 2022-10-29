@@ -1,0 +1,25 @@
+.formlogin{
+    width: 250px;
+    margin: 50px auto 0;
+}
+.formlogin label{
+    margin-top: 10px;
+    display: block;
+}
+.formlogin fieldset{
+    background-color: darkgrey;
+}
+#log, #user, #pass{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: sans-serif;
+    border: none;
+}
+#user:focus, #pass:focus{
+    background-color: darkgrey;
+}
+#log{
+    margin-top: 10px;
+}
